@@ -1,16 +1,71 @@
+@font-face {
+  font-family: allura;
+  src: url("../public/Allura-Regular.ttf");
+}
+
+@font-face {
+  font-family: rosario;
+  src: url("../public/Rosario-Regular.ttf");
+}
+
+@font-face {
+  font-family: rosario-light;
+  src: url("../public/Rosario-Light.ttf");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #F6F3EE;
+}
+
+h1,
+h2 {
+  font-family: "allura", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  font-family: "rosario-light", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
 }
 
-* {
-  box-sizing: border-box;
+p {
+  font-family: "rosario", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+.active {
+  border: 0.1rem solid #b0b0ba;
+  border-radius: 0.25rem;
+  background-color: #b0b0ba;
+  margin: 0.75rem;
+  padding: 0rem 0.5rem 0rem 0.7rem;
+}
+.nav {
+  padding: 2rem;
+  position: relative;
+}
+.centernav {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.link {
+  border: 0.1rem solid #c5c3ca;
+  border-radius: 0.25rem;
+  margin: 0.75rem;
+  padding: 0rem 0.5rem 0rem 0.7rem;
+}
+.link:hover {
+  background-color: #c5c3ca;
+  color: #000000;
+}
+.rightnav {
+  float: right;
 }
