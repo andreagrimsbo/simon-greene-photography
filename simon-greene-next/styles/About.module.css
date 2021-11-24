@@ -9,6 +9,7 @@
 .container h1{
     flex-basis: 100%;
     font-size: 4rem;
+    margin:3rem  0rem 1rem 0rem; 
 }
 .content {
     flex-basis: 50%;
@@ -22,3 +23,16 @@
     display: flex;
     align-items: center;
 }
+.contact {
+    display: inline;
+    list-style-type: none;
+    padding:0rem; 
+}
+.contact li {
+    display: inline;
+    padding-right: 1rem;
+}
+.contact li a{
+    font-size: 2.5rem;
+}
+
