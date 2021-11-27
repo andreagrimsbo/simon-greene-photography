@@ -13,7 +13,7 @@ export default function Home() {
       <div className={styles.main}>
         <Header />
         <div className={styles.container}>
-          <h1>About me</h1>
+          <h1 className>About me</h1>
           <div className={styles.content}>
             <p>
               Hi, my name is Simon Greene and I am a 26 year old professional

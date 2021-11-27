@@ -1,10 +1,9 @@
-import Link from "next/link";
 import Header from "../components/Header";
-import styles from "../styles/Post.module.css";
+import SingelPost from "../components/SinglePost";
 
 export default function Post({ post }) {
   return (
-    <div>
+    /*<div>
       <Header />
       <div className={styles.container}>
         <h2>{post.title}</h2>
@@ -14,6 +13,10 @@ export default function Post({ post }) {
           <a>Go back</a>
         </Link>
       </div>
+    </div>*/
+    <div>
+      <Header />
+      <SingelPost title={post.title} published={post.published} content={post.content} />
     </div>
   );
 }

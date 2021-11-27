@@ -1,18 +1,18 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4rem; 
+  margin-top: 4rem;
   width: 90%;
-  margin:auto;
+  margin: auto;
 }
-.pagetitle{
-    flex-basis: 100%;
-    font-size: 5rem;
-    margin-left: 1rem;
+.pagetitle {
+  flex-basis: 100%;
+  font-size: 5rem;
+  margin-left: 1rem;
 }
 .blogcard {
   background-color: white;
-  height: 50vh; 
+  height: 50vh;
   flex-basis: 25%;
   margin: 1rem;
   padding: 2rem;
@@ -23,25 +23,25 @@
     12.2px 6.9px 15.9px rgba(0, 0, 0, 0.022),
     21.3px 12px 27.7px rgba(0, 0, 0, 0.038), 46px 26px 60px rgba(0, 0, 0, 0.07);
 }
-.cardimg{
-    min-width: 100%;
+.cardimg {
+  min-width: 100%;
 }
 .h1,
 .category,
 .author {
   margin: 0rem;
 }
-.h1{
-    font-size: 2.5rem;
-    
+.h1 {
+  font-size: 2.5rem;
+  margin-top:3rem;
 }
 .author {
   font-size: 0.9rem;
   text-transform: capitalize;
-  margin-top:0rem;
+  margin-top: 0rem;
 }
 .category {
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
 }

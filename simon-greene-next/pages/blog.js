@@ -17,8 +17,8 @@ export default function Blog({ posts }) {
                 <Image
                   src={apiurl + post.image[0].formats.thumbnail.url}
                   alt="Me!"
-                  width={300}
-                  height={200}
+                  width={1600}
+                  height={1000}
                 />
                 <p className={styles.category}>{post.category.category}</p>
                 <h1 className={styles.h1}>{post.title}</h1>

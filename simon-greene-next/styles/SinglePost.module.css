@@ -1,0 +1,29 @@
+.post{
+    width: 70%;
+    margin: auto;
+    margin-top:5rem;
+    padding: 4rem;
+    background-color: white;
+    box-shadow: 1.1px 0.6px 1.4px rgba(0, 0, 0, 0.002),
+    2.5px 1.4px 3.2px rgba(0, 0, 0, 0.004),
+    4.5px 2.5px 5.8px rgba(0, 0, 0, 0.007),
+    7.4px 4.2px 9.6px rgba(0, 0, 0, 0.012),
+    12.2px 6.9px 15.9px rgba(0, 0, 0, 0.022),
+    21.3px 12px 27.7px rgba(0, 0, 0, 0.038), 46px 26px 60px rgba(0, 0, 0, 0.07);
+}
+.post h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top:0rem;
+}
+.post p {
+    font-size: 1.3rem;
+    line-height: 180%;
+}
+.meta {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top:0rem;
+    margin-bottom: 2rem;
+}
