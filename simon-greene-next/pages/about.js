@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Header from "../components/Header";
 import styles from "../styles/About.module.css";
-import { AiOutlineMail, AiOutlineLinkedin, AiOutlineInstagram } from "react-icons/ai";
+import {
+  AiOutlineMail,
+  AiOutlineLinkedin,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -25,9 +29,21 @@ export default function Home() {
               the options below.
             </p>
             <ul className={styles.contact}>
-              <li><a href="#"><AiOutlineMail /></a></li>
-              <li><a href="#"><AiOutlineLinkedin /></a></li>
-              <li><a href="#"><AiOutlineInstagram /></a></li>
+              <li>
+                <a href="#">
+                  <AiOutlineMail />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <AiOutlineLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <AiOutlineInstagram />
+                </a>
+              </li>
             </ul>
           </div>
           <div className={styles.simonimg}>

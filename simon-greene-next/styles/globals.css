@@ -39,9 +39,9 @@ p {
     Arial, sans-serif;
 }
 .active {
-  border: 0.1rem solid #b0b0ba;
+  border: 0.1rem solid #807E74;
   border-radius: 0.25rem;
-  background-color: #b0b0ba;
+  background-color: #807E74;
   margin: 0.75rem;
   padding: 0rem 0.5rem 0rem 0.7rem;
 }
@@ -57,13 +57,13 @@ p {
   transform: translate(-50%, -50%);
 }
 .link {
-  border: 0.1rem solid #c5c3ca;
+  border: 0.1rem solid #AFAD9F;
   border-radius: 0.25rem;
   margin: 0.75rem;
   padding: 0rem 0.5rem 0rem 0.7rem;
 }
 .link:hover {
-  background-color: #c5c3ca;
+  background-color: #AFAD9F;
   color: #000000;
 }
 .rightnav {

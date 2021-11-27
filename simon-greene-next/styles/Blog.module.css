@@ -42,7 +42,6 @@
 }
 .category {
     font-size: 1.2rem;
-    text-transform: lowercase;
-    font-weight: bold;
+    text-transform: capitalize;
     margin-bottom: 1rem;
 }
