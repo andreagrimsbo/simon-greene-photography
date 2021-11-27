@@ -38,6 +38,9 @@
     "author": {
       "model": "author",
       "via": "posts"
+    },
+    "published": {
+      "type": "date"
     }
   }
 }
