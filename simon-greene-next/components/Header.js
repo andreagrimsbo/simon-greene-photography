@@ -18,7 +18,7 @@ export default function Header() {
         <a className={router.pathname == "/blog" ? "active" : "link"}>blog</a>
         </Link>
         <Link href="/portfolio">
-        <a className={router.pathname == "/portfolio" ? "active" : "link"}>portfolio</a>
+        <a className={router.pathname == "/" ? "active" : "link"}>portfolio</a>
         </Link>
       </div>
       <div className={styles.rightnav}>
