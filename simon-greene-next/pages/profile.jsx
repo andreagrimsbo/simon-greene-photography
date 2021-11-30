@@ -8,6 +8,7 @@ const Profile = (props) => {
     const router = useRouter();
     const { user: { email, username } } = props;
 
+
     const logout = async () => {
         try {
             await axios.get('/api/logout');
@@ -40,7 +41,10 @@ export const getServerSideProps = async (ctx) => {
                         `Bearer ${cookies.jwt}`,
                 },
             });
+            const { entries } = await axios.get('http://localhost:1337/bookings');
+
             user = data;
+            console.log(entries);
         } catch (e) {
             console.log(e);
         }
@@ -61,5 +65,6 @@ export const getServerSideProps = async (ctx) => {
         }
     }
 }
+
 
 export default Profile;

@@ -1,3 +1,33 @@
 
 Y
 )simon-greene-next/styles/About.module.css,0\5\058c950d0e621c0ddc99f05710c65a0f40972aeb
+T
+$simon-greene-next/pages/api/hello.js,4\0\40cae75d731b20073c9b5fc3f61dd4dabc1c0a3a
+V
+&simon-greene-next/components/Header.js,3\e\3e96f69622afaceb848d75bfe5f8d72fbd1422fe
+P
+ simon-greene-next/pages/about.js,9\1\91b81d55259fb2ca765bb1a6f9b5ecd75a22fad4
+S
+#simon-greene-next/package-lock.json,5\f\5f9ddcf3fd46dabe4a362274209bb9b43805537e
+N
+simon-greene-next/package.json,c\9\c9a6f3d98d26458c8223ce158df2ee800ec7eb7c
+c
+3simon-greene-strapi/api/bookings/config/routes.json,6\9\694b385e60eee80a5e054952528edee33d931cd1
+h
+8simon-greene-strapi/api/bookings/controllers/bookings.js,1\e\1e2367daeed3b4b5a7eaad007e794abdd556d388
+c
+3simon-greene-strapi/api/bookings/models/bookings.js,c\1\c122d78e9bea3431d46f6d6c8cfbdfdf80ef1699
+e
+5simon-greene-strapi/api/bookings/services/bookings.js,9\3\93b11fc29b816bb10dfc743ea59c458007fef656
+T
+$simon-greene-next/pages/api/login.js,0\8\087aef4b6321c6847988351e13ffcfd0c19c2580
+U
+%simon-greene-next/pages/api/logout.js,7\2\721eb0c959c0759cf647942d9a00465fc93f2f55
+W
+'simon-greene-next/pages/api/register.js,d\b\dbc5f898eb93b6109f2dfe4d2f50c2ef93d6e4d1
+P
+ simon-greene-next/pages/index.js,e\6\e6825650fbe11734981c3b7a979c5f2be3d1d3fa
+_
+/simon-greene-next/components/loginComponent.jsx,6\0\6020536948d10ab310b517901623476b0f4071eb
+T
+$simon-greene-next/pages/register.jsx,c\c\ccb99ba9396fd91a9a0e576e2e8c61cc82cd4a83

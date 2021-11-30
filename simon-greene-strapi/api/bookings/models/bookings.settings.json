@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "bookings",
   "info": {
-    "name": "Bookings"
+    "name": "Bookings",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
-      "type": "string"
-    },
     "Occasion": {
       "type": "string"
     },
@@ -21,7 +19,12 @@
       "type": "string"
     },
     "Date": {
-      "type": "string"
+      "type": "date"
+    },
+    "User": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "bookings"
     }
   }
 }
