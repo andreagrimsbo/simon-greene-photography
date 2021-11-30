@@ -12,8 +12,8 @@ export default function Home() {
     <div>
       <div className={styles.main}>
         <Header />
+        <h1 className="pagetitle">About me</h1>
         <div className={styles.container}>
-          <h1 className>About me</h1>
           <div className={styles.content}>
             <p>
               Hi, my name is Simon Greene and I am a 26 year old professional

@@ -17,7 +17,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #F6F3EE;
+  background-color: #f6f3ee;
 }
 
 h1,
@@ -39,9 +39,9 @@ p {
     Arial, sans-serif;
 }
 .active {
-  border: 0.1rem solid #807E74;
+  border: 0.1rem solid #807e74;
   border-radius: 0.25rem;
-  background-color: #807E74;
+  background-color: #807e74;
   margin: 0.75rem;
   padding: 0rem 0.5rem 0rem 0.7rem;
 }
@@ -57,15 +57,21 @@ p {
   transform: translate(-50%, -50%);
 }
 .link {
-  border: 0.1rem solid #AFAD9F;
+  border: 0.1rem solid #afad9f;
   border-radius: 0.25rem;
   margin: 0.75rem;
   padding: 0rem 0.5rem 0rem 0.7rem;
 }
 .link:hover {
-  background-color: #AFAD9F;
+  background-color: #afad9f;
   color: #000000;
 }
 .rightnav {
   float: right;
+}
+.pagetitle {
+  flex-basis: 100%;
+  font-size: 4rem;
+  margin: 3rem 0rem 3rem 0rem;
+  text-align: center;
 }

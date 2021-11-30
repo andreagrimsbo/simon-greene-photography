@@ -8,17 +8,17 @@ export default function Blog({ posts }) {
   return (
     <div>
       <Header />
+      <h1 className="pagetitle">My blog</h1>
       <div className={styles.container}>
-        <h1 className={styles.pagetitle}>My blog</h1>
         {posts &&
           posts.map((post) => (
             <Link href={`/${post.slug}`} key={post.id}>
               <a className={styles.blogcard}>
                 <Image
-                  src={apiurl + post.image[0].formats.thumbnail.url}
-                  alt="Me!"
-                  width={1600}
-                  height={1000}
+                  src={apiurl + post.image[0].url}
+                  alt="Oh no! No image to show"
+                  width={400}
+                  height={250}
                 />
                 <p className={styles.category}>{post.category.category}</p>
                 <h1 className={styles.h1}>{post.title}</h1>
