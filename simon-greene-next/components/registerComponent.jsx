@@ -28,7 +28,7 @@ const RegisterComponent = () => {
     return (
         <form onSubmit={handleSubmit}>
             <label>
-                Username:
+                Name:
                 <input type="text" name="username" onChange={e => handleChange(e)} />
             </label>
             <br />

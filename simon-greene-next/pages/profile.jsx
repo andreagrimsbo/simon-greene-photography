@@ -1,50 +1,52 @@
-import { useRouter } from 'next/router';
-import axios from 'axios';
-import nookies from 'nookies';
+import {useRouter} from "next/router";
+import axios from "axios";
+import nookies from "nookies";
 import Header from "../components/Header";
-
 
 const Profile = (props) => {
     const router = useRouter();
-    const { user: { email, username } } = props;
+    console.log(props.bookings);
+    console.log(props.bookings[0].Location);
 
+    const {
+        user: {email, username},
+    } = props;
 
     const logout = async () => {
         try {
-            await axios.get('/api/logout');
-            router.push('/');
+            await axios.get("/api/logout");
+            router.push("/");
         } catch (e) {
             console.log(e);
         }
-    }
+    };
 
     return (
         <div>
-            <Header />
+            <Header/>
             <h1>Welcome {username}</h1>
             <div>Email: {email}</div>
             <button onClick={logout}>Logout</button>
         </div>
-    )
-}
-
+    );
+};
 
 export const getServerSideProps = async (ctx) => {
-    const cookies = nookies.get(ctx)
+    const cookies = nookies.get(ctx);
     let user = null;
-
+    let bookings = null;
     if (cookies?.jwt) {
         try {
-            const { data } = await axios.get('http://localhost:1337/users/me', {
+            const res = await axios.get('http://localhost:1337/bookings');
+
+            const {data} = await axios.get("http://localhost:1337/users/me", {
                 headers: {
-                    Authorization:
-                        `Bearer ${cookies.jwt}`,
+                    Authorization: `Bearer ${cookies.jwt}`,
                 },
             });
-            const { entries } = await axios.get('http://localhost:1337/bookings');
-
             user = data;
-            console.log(entries);
+            bookings = res.data;
+
         } catch (e) {
             console.log(e);
         }
@@ -54,17 +56,18 @@ export const getServerSideProps = async (ctx) => {
         return {
             redirect: {
                 permanent: false,
-                destination: '/'
-            }
-        }
+                destination: "/",
+            },
+        };
     }
+
 
     return {
         props: {
-            user
-        }
-    }
-}
-
+            user,
+            bookings,
+        },
+    };
+};
 
 export default Profile;

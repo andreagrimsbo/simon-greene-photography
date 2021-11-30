@@ -1,12 +1,6 @@
 
-Y
-)simon-greene-next/styles/About.module.css,0\5\058c950d0e621c0ddc99f05710c65a0f40972aeb
 T
 $simon-greene-next/pages/api/hello.js,4\0\40cae75d731b20073c9b5fc3f61dd4dabc1c0a3a
-V
-&simon-greene-next/components/Header.js,3\e\3e96f69622afaceb848d75bfe5f8d72fbd1422fe
-P
- simon-greene-next/pages/about.js,9\1\91b81d55259fb2ca765bb1a6f9b5ecd75a22fad4
 S
 #simon-greene-next/package-lock.json,5\f\5f9ddcf3fd46dabe4a362274209bb9b43805537e
 N
@@ -31,3 +25,5 @@ _
 /simon-greene-next/components/loginComponent.jsx,6\0\6020536948d10ab310b517901623476b0f4071eb
 T
 $simon-greene-next/pages/register.jsx,c\c\ccb99ba9396fd91a9a0e576e2e8c61cc82cd4a83
+n
+>simon-greene-strapi/api/bookings/models/bookings.settings.json,b\4\b485200a3b3d6ce9892477a39c2a61dd6201eda6
